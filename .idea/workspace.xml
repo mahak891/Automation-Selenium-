@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c5e8e281-3884-4bce-a86c-f587a531da47" name="Default" comment="" />
+    <list default="true" id="c5e8e281-3884-4bce-a86c-f587a531da47" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/cases.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/cases.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/contact_us$1.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/contact_us.class" afterPath="$PROJECT_DIR$/target/classes/contact_us.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/form.class" afterPath="$PROJECT_DIR$/target/classes/form.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/function$1.class" afterPath="$PROJECT_DIR$/target/classes/function$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/function.class" afterPath="$PROJECT_DIR$/target/classes/function.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/contact_us.java" afterPath="$PROJECT_DIR$/src/main/java/contact_us.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/form.java" afterPath="$PROJECT_DIR$/src/main/java/form.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/function.java" afterPath="$PROJECT_DIR$/src/main/java/function.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/testng.xml" afterPath="$PROJECT_DIR$/testng.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,8 +43,8 @@
       <file leaf-file-name="testng.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testng.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            <state relative-caret-position="120">
+              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -46,35 +60,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact_us.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact_us.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/contact_us.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="747">
-              <caret line="188" column="67" lean-forward="true" selection-start-line="188" selection-start-column="67" selection-end-line="188" selection-end-column="67" />
+            <state relative-caret-position="-454">
+              <caret line="339" column="38" lean-forward="false" selection-start-line="339" selection-start-column="38" selection-end-line="339" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="form.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="form.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/form.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="-927">
+              <caret line="137" column="42" lean-forward="true" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;class#form#0" expanded="false" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="cases.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cases.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -82,11 +85,9 @@
       <file leaf-file-name="function.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/function.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="441">
-              <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="480">
+              <caret line="42" column="40" lean-forward="false" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,7 +111,11 @@
       <find>hc</find>
       <find>hcl.lc</find>
       <find>attach</find>
+      <find>edit-submitted-designation</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -135,11 +140,11 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/target/classes/contact_us.class" />
         <option value="$PROJECT_DIR$/src/main/java/chrome.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/contact_us.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cases.java" />
-        <option value="$PROJECT_DIR$/src/main/java/form.java" />
         <option value="$PROJECT_DIR$/src/main/java/function.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/form.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cases.java" />
+        <option value="$PROJECT_DIR$/src/main/java/contact_us.java" />
       </list>
     </option>
   </component>
@@ -185,6 +190,7 @@
     <option name="width" value="1368" />
     <option name="height" value="743" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -200,7 +206,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -319,8 +324,9 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,7 +354,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.form">
+  <component name="RunManager" selected="TestNG./home/innoraft/IdeaProjects/Contact us form testing/testng.xml">
     <configuration default="false" name="SendEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="SendEmail" />
@@ -876,8 +882,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="TestNG.form" />
-        <item index="1" class="java.lang.String" itemvalue="Application.chrome" />
-        <item index="2" class="java.lang.String" itemvalue="TestNG.contact_us" />
+        <item index="1" class="java.lang.String" itemvalue="TestNG.contact_us" />
+        <item index="2" class="java.lang.String" itemvalue="Application.chrome" />
         <item index="3" class="java.lang.String" itemvalue="Application.testcontact" />
         <item index="4" class="java.lang.String" itemvalue="Application.SendEmail" />
       </list>
@@ -933,44 +939,45 @@
       <workItem from="1496295923713" duration="9432000" />
       <workItem from="1496384431611" duration="7567000" />
       <workItem from="1496657456716" duration="12856000" />
-      <workItem from="1496727839934" duration="13844000" />
+      <workItem from="1496727839934" duration="25864000" />
+      <workItem from="1496812608829" duration="19794000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.06 at 13h 38m 23s.xml">
+    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.07 at 15h 52m 21s.xml">
       <configuration name="/home/innoraft/IdeaProjects/Contact us form testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="form - 2017.06.02 at 19h 33m 28s.xml">
-      <configuration name="form" configurationId="TestNG" />
+    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.07 at 15h 59m 27s.xml">
+      <configuration name="/home/innoraft/IdeaProjects/Contact us form testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="form - 2017.06.02 at 19h 34m 03s.xml">
-      <configuration name="form" configurationId="TestNG" />
+    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.07 at 16h 06m 11s.xml">
+      <configuration name="/home/innoraft/IdeaProjects/Contact us form testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="form - 2017.06.02 at 19h 36m 19s.xml">
-      <configuration name="form" configurationId="TestNG" />
+    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.07 at 16h 11m 43s.xml">
+      <configuration name="/home/innoraft/IdeaProjects/Contact us form testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="form - 2017.06.06 at 11h 18m 22s.xml">
-      <configuration name="form" configurationId="TestNG" />
+    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.07 at 16h 15m 50s.xml">
+      <configuration name="/home/innoraft/IdeaProjects/Contact us form testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="form - 2017.06.06 at 11h 21m 26s.xml">
-      <configuration name="form" configurationId="TestNG" />
+    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.07 at 16h 18m 14s.xml">
+      <configuration name="/home/innoraft/IdeaProjects/Contact us form testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="form - 2017.06.06 at 11h 27m 55s.xml">
-      <configuration name="form" configurationId="TestNG" />
+    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.07 at 16h 32m 49s.xml">
+      <configuration name="/home/innoraft/IdeaProjects/Contact us form testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="form - 2017.06.06 at 15h 53m 14s.xml">
-      <configuration name="form" configurationId="TestNG" />
+    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.07 at 16h 35m 03s.xml">
+      <configuration name="/home/innoraft/IdeaProjects/Contact us form testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="form - 2017.06.06 at 17h 11m 45s.xml">
-      <configuration name="form" configurationId="TestNG" />
+    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.07 at 16h 44m 32s.xml">
+      <configuration name="/home/innoraft/IdeaProjects/Contact us form testing/testng.xml" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="form - 2017.06.06 at 17h 13m 19s.xml">
-      <configuration name="form" configurationId="TestNG" />
+    <history-entry file="_home_innoraft_IdeaProjects_Contact_us_form_testing_testng_xml - 2017.06.07 at 16h 47m 11s.xml">
+      <configuration name="/home/innoraft/IdeaProjects/Contact us form testing/testng.xml" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="271587000" />
+    <option name="totallyTimeSpent" value="303401000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -986,36 +993,36 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262987" sideWeight="0.49015152" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17532468" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262987" sideWeight="0.5098485" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.60876626" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25487012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3262987" sideWeight="0.49015152" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17532468" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1203252" sideWeight="0.4969697" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295082" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Jenkins" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19166666" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3284553" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25487012" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32954547" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1081,7 +1088,6 @@
           <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#form#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1107,7 +1113,6 @@
           <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#form#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1141,7 +1146,6 @@
           <caret line="19" column="62" lean-forward="false" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#form#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1167,7 +1171,6 @@
           <caret line="19" column="62" lean-forward="true" selection-start-line="19" selection-start-column="62" selection-end-line="19" selection-end-column="62" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#form#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1185,7 +1188,6 @@
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#form#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1219,7 +1221,6 @@
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#form#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1245,7 +1246,6 @@
           <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#form#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1271,7 +1271,6 @@
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#form#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1338,57 +1337,48 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/target/classes/contact_us$1.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/target/classes/contact_us$1.class" />
     <entry file="file://$PROJECT_DIR$/target/classes/form$1.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/chrome.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/contact_us.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/function.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="747">
-          <caret line="188" column="67" lean-forward="true" selection-start-line="188" selection-start-column="67" selection-end-line="188" selection-end-column="67" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        <state relative-caret-position="480">
+          <caret line="42" column="40" lean-forward="false" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cases.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/function.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/form.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="-927">
+          <caret line="137" column="42" lean-forward="true" selection-start-line="137" selection-start-column="42" selection-end-line="137" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;class#form#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/contact_us.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-454">
+          <caret line="339" column="38" lean-forward="false" selection-start-line="339" selection-start-column="38" selection-end-line="339" selection-end-column="38" />
+          <folding />
         </state>
       </provider>
     </entry>
