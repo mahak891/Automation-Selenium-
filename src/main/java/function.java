@@ -8,7 +8,11 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
+import java.util.UUID;
 
 /**
  * Created by innoraft on 5/6/17.
@@ -80,6 +84,14 @@ public class function {
             return false;
 
         }
+    }
+
+    public  String randomEmail() {
+        Date date=new Date();
+        DateFormat dateFormat=new SimpleDateFormat("yyyyMMdd_HHmmss");
+        String formattedDate=dateFormat.format(date);
+
+        return "testmail" + formattedDate + "@test.com";
     }
 
 }

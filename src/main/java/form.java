@@ -242,25 +242,6 @@ public class form   {
 
                 TimeUnit.SECONDS.sleep(5);
             }
-//            report.endTest(test);
-//            report.flush();
-//
-//            // Send mail
-//            String username = "mahak.jain@innoraft.com";
-//            String password = "mercury234";
-//            String from_email = "mahak.jain@innoraft.com";
-//            String to_email = "mahakjain1010@gmail.com";
-//            String cc = "";
-//            String bcc = "nishant.singhal@innoraft.com";
-//            String subject = "HCL contact us sticky form testing";
-//            String filepath = "/home/innoraft/IdeaProjects/Contact us form testing/reports/automation_report" + filenumber + ".html";
-//            String reportname = "Test report sticky form ";
-//            String mailbody = "Hi All" + "\n\n" + "Please find the automation test results" + "\n\n" + "Regards,"
-//                    + "\n" + "Testing team";
-//
-//            function sendMail = new function();
-//            sendMail.sendmail(username, password, from_email, to_email, cc, bcc, subject, filepath, reportname, mailbody);
-
     }
 
 
@@ -272,7 +253,7 @@ public class form   {
 
         // Send mail
         String username = "mahak.jain@innoraft.com";
-        String password = "mercury234";
+        String password = "";
         String from_email = "mahak.jain@innoraft.com";
         String to_email = "mahakjain1010@gmail.com";
         String cc = "";
