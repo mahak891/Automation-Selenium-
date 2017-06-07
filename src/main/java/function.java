@@ -8,7 +8,11 @@ import javax.mail.internet.InternetAddress;
 import javax.mail.internet.MimeBodyPart;
 import javax.mail.internet.MimeMessage;
 import javax.mail.internet.MimeMultipart;
+import java.text.DateFormat;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
+import java.util.UUID;
 
 /**
  * Created by innoraft on 5/6/17.
@@ -39,16 +43,16 @@ public class function {
             message.setFrom(new InternetAddress(from_email));
             message.setRecipients(Message.RecipientType.TO,
                     InternetAddress.parse(to_email));
-            message.addRecipient(Message.RecipientType.BCC, new InternetAddress(bcc));
+//            message.addRecipient(Message.RecipientType.BCC, new InternetAddress(bcc));
             message.setSubject(subject);
 //            message.setContent("<p>There is HTML report attached containing output of testcase</p>","text/html");
 
             MimeBodyPart attachementBodyPart = new MimeBodyPart();
             Multipart multipart = new MimeMultipart();
 
-            String file = filepath;
+            String path_file = filepath;
             String fileName = reportname;
-            DataSource source = new FileDataSource(file);
+            DataSource source = new FileDataSource(path_file);
             attachementBodyPart.setDataHandler(new DataHandler(source));
             attachementBodyPart.setFileName(fileName);
 
@@ -69,6 +73,25 @@ public class function {
             e.printStackTrace();
         }
 
+    }
+
+    public boolean check_url(String current_url, String submitted_url) {
+        if (current_url.contains(submitted_url)) {
+            System.out.print("Test Passed");
+            return true;
+        } else {
+            System.out.print("Test Failed");
+            return false;
+
+        }
+    }
+
+    public  String randomEmail() {
+        Date date=new Date();
+        DateFormat dateFormat=new SimpleDateFormat("yyyyMMdd_HHmmss");
+        String formattedDate=dateFormat.format(date);
+
+        return "testmail" + formattedDate + "@test.com";
     }
 
 }

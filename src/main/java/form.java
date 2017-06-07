@@ -11,7 +11,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.io.File;
@@ -31,8 +30,9 @@ public class form   {
     ExtentTest test;
 //    WebDriver driver;
     ChromeDriver driver;
-    String base_url = "http://hcl.lc";
-    String filenumber = "8";
+    private String base_url = "http://hcl.lc";
+    private String filenumber = "10";
+    private String url = base_url + "/contact-us/customer/thank-you";
 
     @BeforeClass
 
@@ -56,40 +56,128 @@ public class form   {
 
         report = new ExtentReports("/home/innoraft/IdeaProjects/Contact us form testing/reports/automation_report" + filenumber + ".html", true);
         test = report.startTest("Hcl contact us sticky form testing");
+        test.log(LogStatus.PASS,"Sucessfully launches chrome driver");
 
 
     }
 
     @Test(priority = 0)
 
-        public void test1() {
-         driver.get(base_url);
-         test.log(LogStatus.INFO,"Case 1 : NO Values has been passed to the form");
-         // Click on sticky button
-         driver.findElement(By.className("ctools-collapsible-handle")).click();
-         test.log(LogStatus.INFO, "Contact us form opens ");
+        public void test1() throws InterruptedException {
+
+        test.log(LogStatus.INFO,"TEST 1");
+        driver.get(base_url);
+        test.log(LogStatus.PASS,"Given link opens sucessfully");
+
+        test.log(LogStatus.INFO,"Case 1 : NO Values has been passed to the form");
+        // Click on sticky button
+        driver.findElement(By.className("ctools-collapsible-handle")).click();
+        test.log(LogStatus.INFO, "Contact us form opens ");
 
         //click on submit button
         driver.findElement(By.id("edit-submit")).click();
         test.log(LogStatus.INFO, "Submit button clicked");
 
-
-
+        TimeUnit.SECONDS.sleep(5);
+        String current_url = driver.getCurrentUrl();
+        function checkUrl = new function();
+        boolean value = checkUrl.check_url(current_url,url);
+        if (value){
+        test.log(LogStatus.PASS,"Test is passed successfully. Form is submitted and page directs to thank you page.");
+        }
+        else {
+        test.log(LogStatus.FAIL,"Test is failed. Form is not submitted.");
+        }
+        TimeUnit.SECONDS.sleep(5);
     }
 
     @Test(priority = 1)
 
-        public void test2() {
+        public void test2() throws InterruptedException {
+
+        test.log(LogStatus.INFO,"TEST 2");
         driver.get(base_url);
+        test.log(LogStatus.PASS,"Given link opens sucessfully");
+
         test.log(LogStatus.INFO,"Case 2 : Required values have been omitted");
 
         // Click on sticky button
         driver.findElement(By.className("ctools-collapsible-handle")).click();
         test.log(LogStatus.INFO, "Contact us form opens ");
 
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+        driver.findElement(By.id("edit-submitted-organization")).sendKeys("Innoraft");
+        test.log(LogStatus.INFO, "Organisation filled");
+
+        WebElement select = driver.findElement(By.id("edit-submitted-country"));
+        Select sel = new Select(select);
+        sel.selectByVisibleText("Peru");
+        test.log(LogStatus.INFO, "Value selected from dropdown country");
+
+        driver.findElement(By.id("edit-submit")).click();
+        test.log(LogStatus.INFO, "Submit button clicked");
+
+
+        String current_url = driver.getCurrentUrl();
+        function checkUrl = new function();
+        boolean value = checkUrl.check_url(current_url,url);
+        if (value){
+            test.log(LogStatus.PASS,"Test is passed successfully. Form is submitted and page directs to thank you page.");
+        }
+        else {
+            test.log(LogStatus.FAIL,"Test is failed. Form is not submitted.");
+        }
+
+        TimeUnit.SECONDS.sleep(5);
     }
 
-    @Test()
+    @Test(priority = 2)
+
+        public void test3() throws InterruptedException {
+
+        test.log(LogStatus.INFO,"TEST 3");
+        driver.get(base_url);
+        test.log(LogStatus.PASS,"Given link opens sucessfully");
+        test.log(LogStatus.INFO,"Case 3 : ONLY Required values have been filled");
+
+        // Click on sticky button
+        driver.findElement(By.className("ctools-collapsible-handle")).click();
+        test.log(LogStatus.INFO, "Contact us form opens ");
+
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+
+        WebDriverWait myWait = new WebDriverWait(driver, 10);
+        myWait.until(ExpectedConditions.visibilityOf(driver.findElement(By.id("edit-submitted-full-name"))));
+
+        driver.findElement(By.id("edit-submitted-full-name")).sendKeys ("Mahak Jain");
+        test.log(LogStatus.INFO, "Full name filled");
+
+        driver.findElement(By.id("edit-submitted-email-address")).sendKeys ("mahak@aajghg.com");
+        test.log(LogStatus.INFO,"Email is filled");
+
+        driver.findElement(By.id("edit-submitted-phone")).sendKeys ("46565465465");
+        test.log(LogStatus.INFO,"Phone number is filled");
+
+        driver.findElement(By.id("edit-submitted-message-comments")).sendKeys ("demo demo demo demo demo demo demo demo demo demo demo demo demo demo demo ");
+        test.log(LogStatus.INFO,"Query message is filled");
+
+        driver.findElement(By.id("edit-submit")).click();
+        test.log(LogStatus.INFO, "Submit button clicked");
+
+        String current_url = driver.getCurrentUrl();
+        function checkUrl = new function();
+        boolean value = checkUrl.check_url(current_url,url);
+        if (value){
+            test.log(LogStatus.PASS,"Test is passed successfully. Form is submitted and page directs to thank you page.");
+        }
+        else {
+            test.log(LogStatus.FAIL,"Test is failed. Form is not submitted.");
+        }
+        TimeUnit.SECONDS.sleep(5);
+
+    }
+
+    @Test(enabled = false)
 
         public void test() throws InterruptedException {
 
@@ -152,39 +240,8 @@ public class form   {
                 driver.findElement(By.id("edit-submit")).click();
                 test.log(LogStatus.INFO, "Submit button clicked");
 
-                String current_url = driver.getCurrentUrl();
-                String url = base_url + "/contact-us/customer/thank-you";
-                i++;
-                if (current_url.contains(url)) {
-                    System.out.print("Test Passed");
-                    test.log(LogStatus.PASS, "TEST PASSED for " + i + " th time. It successfully went to thank you page.");
-
-                } else {
-                    System.out.print("Test Failed");
-                    test.log(LogStatus.FAIL, "TEST FAILED for " + i + " th time. Form is not submitted.");
-                }
-                i--;
                 TimeUnit.SECONDS.sleep(5);
             }
-//            report.endTest(test);
-//            report.flush();
-//
-//            // Send mail
-//            String username = "mahak.jain@innoraft.com";
-//            String password = "mercury234";
-//            String from_email = "mahak.jain@innoraft.com";
-//            String to_email = "mahakjain1010@gmail.com";
-//            String cc = "";
-//            String bcc = "nishant.singhal@innoraft.com";
-//            String subject = "HCL contact us sticky form testing";
-//            String filepath = "/home/innoraft/IdeaProjects/Contact us form testing/reports/automation_report" + filenumber + ".html";
-//            String reportname = "Test report sticky form ";
-//            String mailbody = "Hi All" + "\n\n" + "Please find the automation test results" + "\n\n" + "Regards,"
-//                    + "\n" + "Testing team";
-//
-//            function sendMail = new function();
-//            sendMail.sendmail(username, password, from_email, to_email, cc, bcc, subject, filepath, reportname, mailbody);
-
     }
 
 
@@ -196,7 +253,7 @@ public class form   {
 
         // Send mail
         String username = "mahak.jain@innoraft.com";
-        String password = "mercury234";
+        String password = "";
         String from_email = "mahak.jain@innoraft.com";
         String to_email = "mahakjain1010@gmail.com";
         String cc = "";
